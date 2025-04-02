@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Akari - Light Up</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_00_00">00:00</string>
+    <string name="back_to_menu">Back To Menu</string>
+    <string name="reset">Reset</string>
+    <string name="done">Done!</string>
+    <string name="choose_a_level">Choose a Level!</string>
+    <string name="level_1">Level 1</string>
+    <string name="level_2">Level 2</string>
+    <string name="level_3">Level 3</string>
+    <string name="back_to_menu2">Back To Menu</string>
+    <string name="scoreboard">ScoreBoard</string>
+    <string name="play">Play!</string>
+    <string name="exit">Exit</string>
+    <string name="level_12">Level 1</string>
+    <string name="best_time_nc">Best time: nC</string>
+    <string name="level_22">Level 2</string>
+    <string name="best_time_nc2">Best time: nC</string>
+    <string name="level_32">Level 3</string>
+    <string name="best_time_nc3">Best time: nC</string>
+    <string name="back_to_menu3">Back To Menu</string>
+    <string name="scores_json">scores.json</string>
+    <string name="inittime">"\n            {\n                \"level1\": \"59:59\",\n                \"level2\": \"59:59\",\n                \"level3\": \"59:59\"\n            }\n        "</string>
+    <string name="scores_json2">scores.json</string>
+    <string name="selected_level">selected_level</string>
+</resources>

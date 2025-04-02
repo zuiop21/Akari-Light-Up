@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="akari.lightup.fragments.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_levelSelectionFragment"
+            app:destination="@id/levelSelectionFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_scoreBoardFragment"
+            app:destination="@id/scoreBoardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/levelSelectionFragment"
+        android:name="akari.lightup.fragments.LevelSelectionFragment"
+        android:label="fragment_level_selection"
+        tools:layout="@layout/fragment_level_selection" >
+        <action
+            android:id="@+id/action_levelSelectionFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+        <action
+            android:id="@+id/action_levelSelectionFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="akari.lightup.fragments.GameFragment"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" >
+        <action
+            android:id="@+id/action_gameFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/scoreBoardFragment"
+        android:name="akari.lightup.fragments.ScoreBoardFragment"
+        android:label="fragment_score_board"
+        tools:layout="@layout/fragment_score_board" >
+        <action
+            android:id="@+id/action_scoreBoardFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+</navigation>

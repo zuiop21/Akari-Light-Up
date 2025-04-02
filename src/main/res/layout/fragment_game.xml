@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="50dp">
+    <TextView
+        android:id="@+id/textTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:text="@string/_00_00"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="50dp"/>
+
+
+    <!-- GridLayout -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:rowCount="7"
+        android:columnCount="7"
+        android:useDefaultMargins="true"
+        android:alignmentMode="alignMargins">
+
+        <!-- Sor0 -->
+        <ImageButton
+            android:id="@+id/btn0_0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+        <ImageButton
+            android:id="@+id/btn0_1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn0_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn0_3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn0_4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn0_5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn0_6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <!-- Sor1 -->
+        <ImageButton
+            android:id="@+id/btn1_0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+        <ImageButton
+            android:id="@+id/btn1_1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn1_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn1_3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn1_4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn1_5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn1_6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <!-- Sor2 -->
+        <ImageButton
+            android:id="@+id/btn2_0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+        <ImageButton
+            android:id="@+id/btn2_1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn2_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn2_3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn2_4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn2_5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn2_6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+        <!-- Sor3 -->
+        <ImageButton
+            android:id="@+id/btn3_0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+        <ImageButton
+            android:id="@+id/btn3_1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn3_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn3_3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn3_4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn3_5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn3_6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+        <!-- Sor4 -->
+        <ImageButton
+            android:id="@+id/btn4_0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+        <ImageButton
+            android:id="@+id/btn4_1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn4_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn4_3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn4_4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn4_5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn4_6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+        <!-- Sor5 -->
+        <ImageButton
+            android:id="@+id/btn5_0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+        <ImageButton
+            android:id="@+id/btn5_1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn5_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn5_3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn5_4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn5_5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn5_6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+        <!-- Sor6 -->
+        <ImageButton
+            android:id="@+id/btn6_0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+        <ImageButton
+            android:id="@+id/btn6_1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn6_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn6_3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn6_4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn6_5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/btn6_6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:scaleType="fitCenter"
+            android:layout_columnWeight="1" />
+
+
+    </GridLayout>
+
+    <!-- Horizontal LinearLayout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="100dp">
+
+
+        <!-- Gombok a horizontális LinearLayout-ban -->
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.1"
+            android:text="@string/back_to_menu" />
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:text="@string/reset" />
+
+        <Button
+            android:id="@+id/btnDone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/done" />
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
