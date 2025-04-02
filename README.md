@@ -28,4 +28,6 @@ Light-Up is an Android puzzle game based on the Akari (Light-Up) logic puzzle. P
 <img src="./images/scoreboard.png" alt="Preview" width="300">
 <img src="./images/lvlselect.png" alt="Preview" width="300">
 <img src="./images/game.png" alt="Preview" width="300">
+<img src="./images/game2.png" alt="Preview" width="300">
+<img src="./images/game3.png" alt="Preview" width="300">
 
