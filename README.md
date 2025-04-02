@@ -1,4 +1,4 @@
-# Light-Up Puzzle Game
+# Light-Up Puzzle Game - Small Android School Project
 
 ## Description
 Light-Up is an Android puzzle game based on the Akari (Light-Up) logic puzzle. Players must place lights on a grid to illuminate all cells while following specific rules.
